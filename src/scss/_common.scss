@@ -1,0 +1,585 @@
+
+/* font */
+.font-12{
+	font-size: 12px !important;
+}
+.font-14{
+	font-size: 14px !important;
+}
+.font-16{
+	font-size: 16px !important;
+}
+.font-18{
+	font-size: 18px !important;
+}
+.text-gray{
+	color:#b2b2b2;
+}
+.text-second{
+	color: #8b95a2;
+}
+/*border*/
+.border{
+  border:1px solid #e5e5e5;
+}
+.border-dashed{
+  border:1px dashed #e5e5e5;
+}
+.border-b-dotted{
+  border-bottom:1px dotted #e5e5e5;
+}
+.border-b-dashed{
+  border-bottom:1px dashed #e5e5e5;
+}
+.border-b-solid{
+  border-bottom:1px solid #e5e5e5;
+}
+.border-l-solid{
+  border-left:1px solid #e5e5e5;
+}
+.border-r-solid{
+  border-right:1px solid #e5e5e5;
+}
+.border-b-solid{
+  border-bottom:1px solid #e5e5e5;
+}
+.border-t-solid{
+  border-top:1px solid #e5e5e5;
+}
+.border-radius-null{
+  border-radius:0 none;
+}
+.border-radius-5{
+  border-radius:5px;
+}
+.border-none{
+  border: none;
+  outline:none;
+}
+/* Display */
+.dis-block{
+	display:block !important;
+}
+.dis-inline-block{
+	display:inline-block;
+}
+/* Position */
+.pos-relative{
+	position: relative;
+}
+.pos-absolute{
+	position: absolute;
+}
+/* overflow */
+.overflow-auto{
+	overflow:auto;
+}
+.overflow-hidden{
+	overflow:hidden;
+}
+.overflow-x-scroll{
+	overflow-x:scroll;
+}
+.overflow-y-scroll{
+	overflow-y:scroll;
+}
+.overflow-x-hidden{
+	overflow-x:hidden;
+}
+.overflow-y-hidden{
+	overflow-y:hidden;
+}
+/* cursor */
+.cursor-pointer{
+	cursor: pointer;
+}
+/* padding margin */
+.margin-0{
+	margin: 0 !important;
+}
+.margin-10{
+	margin:10px !important;
+}
+.margin-20{
+	margin:20px !important;
+}
+.margin-lr-0{
+	margin-left:0 !important;
+	margin-right:0 !important;
+}
+.margin-lr-10{
+	margin-left:10px !important;
+	margin-right:10px !important;
+}
+.margin-lr-20{
+	margin-left:20px !important;
+	margin-right:20px !important;
+}
+.margin-tb-10{
+	margin-top:10px !important;
+	margin-bottom:10px !important;
+}
+.margin-tb-20{
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+}
+.mt-10-negative{
+	margin-top:-10px !important;
+}
+.mt-0{
+	margin-top:0px !important;
+}
+.mt-10{
+	margin-top:10px !important;
+}
+.mt-20{
+	margin-top:20px !important;
+}
+.mb-0{
+	margin-bottom:0px !important;
+}
+.mb-10{
+	margin-bottom:10px !important;
+}
+.mb-20{
+	margin-bottom:20px !important;
+}
+.ml-0{
+	margin-left:0 !important;
+}
+.ml-5{
+	margin-left:5px !important;
+}
+.ml-10{
+	margin-left:10px !important;
+}
+.ml-20{
+	margin-left:20px !important;
+}
+.mr-0{
+	margin-right:0px !important;
+}
+.mr-5{
+	margin-right:5px !important;
+}
+.mr-10{
+	margin-right:10px !important;
+}
+.mr-20{
+	margin-right:20px !important;
+}
+.padding-0{
+	padding: 0px !important;
+}
+.padding-10{
+	padding:10px !important;
+}
+.padding-20{
+	padding:20px !important;
+}
+.padding-lr-0{
+	padding-left:0 !important;
+	padding-right:0!important;
+}
+.padding-lr-10{
+	padding-left:10px !important;
+	padding-right:10px !important;
+}
+.padding-lr-20{
+	padding-left:20px !important;
+	padding-right:20px !important;
+}
+.padding-tb-0{
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+}
+.padding-tb-10{
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+}
+.padding-tb-20{
+	padding-top:20px !important;
+	padding-bottom:20px !important;
+}
+.pt-0{
+	padding-top:0px !important;
+}
+.pt-10{
+	padding-top:10px !important;
+}
+.pt-20{
+	padding-top:20px !important;
+}
+.pb-0{
+	padding-bottom:0 !important;
+}
+.pb-10{
+	padding-bottom:10px !important;
+}
+.pb-20{
+	padding-bottom:20px !important;
+}
+.pl-0{
+	padding-left:0px !important;
+}
+.pl-10{
+	padding-left:10px !important;
+}
+.pl-20{
+	padding-left:20px !important;
+}
+.pr-0{
+	padding-right:0px !important;
+}
+.pr-10{
+	padding-right:10px !important;
+}
+.pr-20{
+	padding-right:20px !important;
+}
+
+/* checkbox radio */
+.checkbox {
+  padding-left: 20px;
+}
+.checkbox label {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 5px;
+}
+.checkbox label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 0;
+  margin-left: -19px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.checkbox label::after {
+  display: inline-block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  top: 0;
+  margin-left: -21px;
+  padding-left: 3px;
+  padding-top: 1px;
+  font-size: 11px;
+  color: #555555;
+}
+.checkbox input[type="checkbox"],
+.checkbox input[type="radio"] {
+  opacity: 0;
+  z-index: 1;
+}
+.checkbox input[type="checkbox"]:focus + label::before,
+.checkbox input[type="radio"]:focus + label::before {
+  outline:none;
+}
+.checkbox input[type="checkbox"]:checked + label::after,
+.checkbox input[type="radio"]:checked + label::after {
+  font-family: "FontAwesome";
+  content: "\f00c";
+}
+.checkbox input[type="checkbox"]:disabled + label,
+.checkbox input[type="radio"]:disabled + label {
+  opacity: 0.65;
+}
+.checkbox input[type="checkbox"]:disabled + label::before,
+.checkbox input[type="radio"]:disabled + label::before {
+  background-color: #eeeeee;
+  cursor: not-allowed;
+}
+.checkbox.checkbox-circle label::before {
+  border-radius: 50%;
+}
+.checkbox.checkbox-inline {
+  margin-top: 0;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label::before,
+.checkbox-primary input[type="radio"]:checked + label::before {
+  background-color: orange;
+  border-color: blue;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::after,
+.checkbox-primary input[type="radio"]:checked + label::after {
+  color: #fff;
+}
+
+.checkbox-danger input[type="checkbox"]:checked + label::before,
+.checkbox-danger input[type="radio"]:checked + label::before {
+  background-color: #a94442;
+  border-color: #a94442;
+}
+.checkbox-danger input[type="checkbox"]:checked + label::after,
+.checkbox-danger input[type="radio"]:checked + label::after {
+  color: #fff;
+}
+
+.checkbox-info input[type="checkbox"]:checked + label::before,
+.checkbox-info input[type="radio"]:checked + label::before {
+  background-color: #31708f;
+  border-color: #31708f;
+}
+.checkbox-info input[type="checkbox"]:checked + label::after,
+.checkbox-info input[type="radio"]:checked + label::after {
+  color: #fff;
+}
+
+.checkbox-warning input[type="checkbox"]:checked + label::before,
+.checkbox-warning input[type="radio"]:checked + label::before {
+  background-color: #8a6d3b;
+  border-color: #8a6d3b;
+}
+.checkbox-warning input[type="checkbox"]:checked + label::after,
+.checkbox-warning input[type="radio"]:checked + label::after {
+  color: #fff;
+}
+
+.checkbox-success input[type="checkbox"]:checked + label::before,
+.checkbox-success input[type="radio"]:checked + label::before {
+  background-color: green;
+  border-color: green;
+}
+.checkbox-success input[type="checkbox"]:checked + label::after,
+.checkbox-success input[type="radio"]:checked + label::after {
+  color: #fff;
+}
+
+.radio {
+  padding-left: 20px;
+}
+.radio label {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 0;
+}
+.radio label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 0;
+  margin-left: -20px;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  background-color: #fff;
+  -webkit-transition: border 0.15s ease-in-out;
+  -o-transition: border 0.15s ease-in-out;
+  transition: border 0.15s ease-in-out;
+}
+.radio label::after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 11px;
+  height: 11px;
+  left: 3px;
+  top: 3px;
+  margin-left: -20px;
+  border-radius: 50%;
+  background-color: #fff;
+  -webkit-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -o-transform: scale(0, 0);
+  transform: scale(0, 0);
+  -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+}
+.radio input[type="radio"] {
+  opacity: 0;
+  z-index: 1;
+}
+.radio input[type="radio"]:focus + label::before {
+  outline:none;
+}
+.radio input[type="radio"]:checked + label::after {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+.radio input[type="radio"]:disabled + label {
+  opacity: 0.65;
+}
+.radio input[type="radio"]:disabled + label::before {
+  cursor: not-allowed;
+}
+.radio.radio-inline {
+  margin-top: 0;
+}
+.radio-primary input[type="radio"]:checked + label::before {
+  border-color: blue;
+}
+.radio-primary input[type="radio"]:checked + label::after {
+  background-color: blue;
+}
+.radio-danger input[type="radio"]:checked + label::before {
+  border-color: #a94442;
+}
+.radio-danger input[type="radio"]:checked + label::after {
+  background-color: #a94442;
+}
+.radio-info input[type="radio"]:checked + label::before {
+  border-color: #31708f;
+}
+.radio-info input[type="radio"]:checked + label::after {
+  background-color: #31708f;
+}
+.radio-warning input[type="radio"]:checked + label::before {
+  border-color: #8a6d3b;
+}
+.radio-warning input[type="radio"]:checked + label::after {
+  background-color: #8a6d3b;
+}
+.radio-success input[type="radio"]:checked + label::before {
+  border-color: green;
+}
+.radio-success input[type="radio"]:checked + label::after {
+  background-color: green;
+}
+
+input[type="checkbox"].styled:checked + label:after,
+input[type="radio"].styled:checked + label:after {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+}
+input[type="checkbox"] .styled:checked + label::before,
+input[type="radio"] .styled:checked + label::before {
+  color: #fff;
+}
+input[type="checkbox"] .styled:checked + label::after,
+input[type="radio"] .styled:checked + label::after {
+  color: #fff;
+}
+
+/* 通用下拉 */
+.dropdown-menu-arrow{
+	border-color:rgba(0,0,0,.1);
+	min-width:70px;
+	font-size:12px;
+}
+.dropdown-menu-arrow:before,.dropdown-menu-arrow:after{
+	position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.dropdown-menu-arrow:before{
+	content:"";
+	border-width:11px;
+	top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+ /* border-bottom-color: #999;*/
+  border-bottom-color: rgba(0,0,0,.1)
+}
+.dropdown-menu-arrow:after{
+	border-width: 10px;
+	top: -10px;
+	left: 50%;
+  margin-left: -10px;
+  content: " ";
+  border-top-width: 0;
+  border-bottom-color: #fff;
+}
+.dropdown-menu-arrow li a{
+	margin: 1px;
+}
+.fa-angle-down{
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+}
+.open .fa-angle-down{
+	transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+/*页面样式*/
+body{
+  background-color:#ecedf1;
+  color:#333;
+}
+body.width-min{
+  min-width:1000px;
+}
+.cpm-comwidth{
+  margin:0 auto;
+  width:1240px;
+  background-color: #fff;
+  /*@media (max-width:1260px){
+    width: 1000px;
+  }
+  @media (min-width:1650px) {
+    width: 1600px;
+  }*/
+}
+.cpm-main {
+    position: relative;
+}
+.cpm-main .cpm-web-sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.cpm-web-sidebar {
+    width: 260px;
+    height: 100%;
+    background-color: #fff;
+    overflow: auto;
+}
+.cpm-web-sidebar .items > li {
+    text-align: center;
+    height:50px;
+    line-height: 50px;
+    border-bottom: 1px solid #f8f8f8;
+    word-break: break-word;
+    font-size: 14px;
+}
+.cpm-web-sidebar .items > li a{
+  color:#333;
+}
+.cpm-web-sidebar .items > li.active{
+  background-color: blue;
+  padding-left: 3px;
+}
+.cpm-web-sidebar .items > li.active a{
+  display:block;
+  width:100%;
+  height:100%;
+  background-color: #adedf5;
+  color:#fff;
+}
+.cpm-web-container {
+    width: 100%;
+    background-color:#ecedf1;
+}
+.cpm-main .cpm-web-content {
+    margin-left: 270px;
+    position: relative;
+    background-color: #fff;
+}
+.cpm-web-content {
+    min-height: 800px;
+}

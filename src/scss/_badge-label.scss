@@ -1,0 +1,91 @@
+/*
+* badge_label cssreset
+* @Author: wangwenjie
+* @Date:   2016-05-03 14:48:52
+* @Last Modified by:   wangwenjie
+* @Last Modified time: 2016-07-05 15:30:56
+*/
+
+.badge {
+    background-color:$color-gray-min;
+    color:$color-999;
+    font-weight: normal;
+    padding:3px 6px;
+    @include border-radius(3px);
+    &.badge-sm{
+      padding: 1px 4px;
+    }
+    &.badge-xs{
+      padding: 2px 4px;
+      font-weight:100;
+    }
+}
+.badge-primary, .label-primary {
+    background-color: $color-primary;
+    color: $color-white;
+}
+.badge-info, .label-info {
+    background-color: $color-info;
+    color: $color-white;
+}
+.badge-success, .label-success {
+    background-color: $color-success;
+    color: $color-white;
+}
+.badge-warning, .label-warning {
+    background-color: $color-warning;
+    color: $color-white;
+}
+.badge-danger, .label-danger {
+    background-color: $color-danger;
+    color: $color-white;
+}
+
+.badge-radius{
+  @include border-radius(10px);
+}
+
+.badge-outline{
+  background-color:transparent;
+  border:1px solid $color-999;
+  &.badge-primary {
+    color: $color-primary;
+    border-color: $color-primary;
+  }
+  &.badge-primary:hover,&.badge-primary:focus{
+    background-color: $color-primary;
+    color: $color-white;
+  }
+  &.badge-success {
+    color: $color-success;
+    border-color: $color-success;
+  }
+  &.badge-success:hover,&.badge-success:focus{
+    background-color: $color-success;
+    color: $color-white;
+  }
+  &.badge-info {
+    color: $color-info;
+    border-color: $color-info;
+  }
+  &.badge-info:hover,&.badge-info:focus{
+    background-color: $color-info;
+    color: $color-white;
+  }
+  &.badge-warning {
+    color: $color-warning;
+    border-color: $color-warning;
+  }
+  &.badge-warning:hover,&.badge-warning:focus{
+    background-color: $color-warning;
+    color: $color-white;
+  }
+  &.badge-danger {
+    color: $color-danger;
+    border-color: $color-danger;
+  }
+  &.badge-danger:hover,&.badge-danger:focus{
+    background-color: $color-danger;
+    color: $color-white;
+  }
+}

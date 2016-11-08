@@ -1,0 +1,63 @@
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*reset boy family*/
+body{
+  font-family:"Microsoft YaHei","微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*unify the setting of elements's margin and padding for browsers*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  margin: 0;
+  padding: 0;
+}
+
+/*Reset fonts for relevant elements*/
+button,input,select,textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/*Remove the clear button of a text input control in IE10+*/
+input::-ms-clear, input::-ms-reveal {
+  display: none;
+}
+
+/*Rmove ul,ol liststyle*/
+ul,ol {
+  list-style: none;
+}
+
+/*Reset selection*/
+::selection {
+  background: #1073c2;
+  color: #fff;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+  line-height:inherit;
+}
+
+/*code,
+kbd,
+pre,
+samp {
+  font-family: Consolas,Menlo,Courier,monospace;
+}*/
+
+label,.label{
+  font-weight:normal;
+}
+i,em{
+  font-style:normal
+}
+img{
+  max-width:100%;
+  object-fit: cover;
+}
+pre{
+  border:0;
+  background-color: #FFF;
+}

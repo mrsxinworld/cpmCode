@@ -1,0 +1,108 @@
+/*
+* 低版本展示 css
+* @Author: wangwenjie
+* @Date:   2016-05-03 14:48:52
+* @Last Modified by:   wangwenjie
+* @Last Modified time: 2016-07-15 14:44:57
+*/
+
+//ie67低版本展示
+.ie-mask .noticeie-logo{
+	display:inline-block;
+	margin:40px 50px 30px;
+	background:url(../images/logo.png) no-repeat;
+	width:57px;
+	height:56px;
+}
+.ie-mask{
+	margin:200px auto;
+	width:530px;
+	height:300px;
+	background-color:#fff;
+	border:1px solid #d2d2d2;
+}
+.ie-mask p{margin:0 50px;line-height:20px}
+.ie-mask p a{margin-left:5px;margin-right:5px;color:#0c94de}
+.ie-mask p a:hover{text-decoration:underline}
+// .ie-mask .recommend-logos{position:relative;margin-top:30px}
+// .ie-mask .recommend-logos a{display:inline-block}
+// .ie-mask .recommend-logos .chrome{position:absolute;left:50px}
+// .ie-mask .recommend-logos .ff{position:absolute;left:50%;margin-left:-32px}
+// .ie-mask .recommend-logos .ie{position:absolute;right:50px}
+.noticeie *{visibility:hidden}
+.noticeie .ie-mask,.noticeie .ie-mask *{visibility:inherit}
+
+//ie8浏览器提示
+// html.ielow{
+// 	padding-top: 60px;
+// }
+// .ielow-div{
+// 	width:100%;
+// 	height:60px;
+// 	position:fixed;
+// 	left:0;
+// 	top:0;
+// 	z-index:9999999;
+// 	//padding-left:30px;
+// 	filter:alpha(opacity=95);
+// 	background:#111;
+// 	font-size:12px;
+// }
+// .ielow-content{
+// 	width:100%;
+// 	height:45px;
+// 	padding-top:15px;
+// 	color:#fff
+// }
+// .ielow-content img{
+// 	vertical-align:middle;
+// 	padding-bottom:5px
+// }
+// .ielow-content a{
+// 	color:#fff
+// }
+// .ielow-content a:hover{
+// 	color:#4eccc4
+// }
+
+
+.ielow-div{
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:9999999;
+	filter:alpha(opacity=90);
+	opacity:.9;
+	background:#f8f8f8;
+	color:#333;
+}
+.ielow-content{
+	width:500px;
+	height:270px;
+	padding:30px;
+	margin:200px auto;
+	border:1px solid #ddd;
+	background:#fff;
+	.ielow-logo{
+		display:inline-block;
+		vertical-align: middle;
+		background:url(../images/logo.png) no-repeat;
+		width:57px;
+		height:56px;
+	}
+	>p{
+		margin-bottom: 20px;
+	}
+	 a{
+		color:#333;
+		// text-decoration:underline;
+		&:hover{
+			color:#4eccc4
+		}
+	}
+}
+
